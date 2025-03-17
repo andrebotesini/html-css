@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grouping tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: beige;
+        }
+        header{
+            background-color: bisque;
+            padding: 4px;
+            border-radius: 3px;
+            margin: 10px;
+            text-align: center;
+            box-shadow: 1px 1px 1px rgb(250, 199, 137);
+        }
+        header > nav {
+            background-color: antiquewhite;
+            margin: 10px;
+            padding: 6px;
+            border-radius: 5px;
+            text-align: center;
+            box-shadow: 1px 1px 1px rgb(250, 199, 137);
+
+        }
+        nav > a {
+            margin: 5px;
+            color: black;
+            text-decoration: none;
+            font-weight: bold;
+            background-color: antiquewhite;
+            font-size: 1.1em;
+        }
+        nav > a:hover {
+            text-decoration: underline;
+            font-weight: bolder;
+        }
+        main{
+            background-color: rgb(255, 214, 165);
+            border-radius: 4px;
+            margin: 15px;
+            padding: 8px;
+            box-shadow: 1px 1px 1px rgb(250, 199, 137);
+            
+
+
+        }
+        h2 {
+            text-align: center;
+            font-size: 1.5em;
+            background-color: cadetblue;
+            border-radius: 3px;
+            margin: 10 auto 10 auto;
+            padding: 4px;
+        }
+        aside {
+            background-color: rgb(245, 188, 118);
+            border-radius: 4px;
+            padding: 5px;
+        }
+        footer{
+            background-color: rgb(69, 69, 253);
+            border-radius: 4px;
+            text-align: right;
+            margin: 10 auto 10 auto;
+            padding: 4px;
+            text-decoration: underline;
+            font-weight: bolder;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+       <h1>Noticias</h1>
+       <nav>
+        <a href="#">link</a>
+        <a href="#">link</a>
+        <a href="#">link</a>
+        <a href="#">link</a>
+       </nav>
+    </header>
+    <main>
+        <article>
+        <h2>Noticias de ultima hora!</h2>
+        <aside>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia exercitationem temporibus perferendis consequuntur doloribus! Ipsa eveniet iusto modi at beatae numquam sed eius, excepturi distinctio unde, fuga quo, ullam asperiores.
+        </aside>
+        </article>
+    </main>
+    <footer>
+        este site foi criado por andre
+    </footer>
+</body>
+</html>

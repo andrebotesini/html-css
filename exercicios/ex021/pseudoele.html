@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pseudo elementos</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }     
+
+        a::after{
+            content: " [acesse]";
+            color: black;
+        }
+        
+        a{
+            color: black;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        
+        .link:hover{
+            text-decoration: underline;
+            color: blue;
+            background-color: rgb(241, 162, 162);
+        }
+        h1{
+            border-radius: 10px;
+            background-color: rgb(148, 253, 218);
+            padding: 15px;
+            width: 300px;
+            margin: auto;
+        }
+        li{
+
+            background-color: blanchedalmond;
+            margin: 20 auto 20 auto;
+            padding: 10px;
+            border-radius: 5px;
+            width: 300px;
+        }
+
+
+    </style>
+</head>
+<body>
+    <h1>pseudo elementos</h1>
+         <li><a href="https://youtube.com/cursoemvideo/" target="_blank" class="link">canal do youtube</a></li>
+
+        <li><a href="https://cursoemvideo.com/" target="_blank" class="link">site do curso em video</a></li>
+        
+    </ul>
+</body>
+</html>

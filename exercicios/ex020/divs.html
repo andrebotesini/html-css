@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>divs</title>
+    <style>
+        div > p {
+            display: none;
+        }
+        div:hover {
+            color: brown;
+            width: 200px;
+        }
+        div:hover > p {
+            display: block;
+            background-color: brown;
+            color: black;
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>pseudo classes</h1>
+    <p>clique abaixo</p>
+    <div>clique aqui
+        <p>achou!!!!</p>
+    </div>
+</body>
+</html>
