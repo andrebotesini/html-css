@@ -13,6 +13,25 @@
         table{
             border-collapse: collapse;
             width: 400px;
+            position: relative;
+        }
+
+        caption{
+            width: 400px;
+            background-color: lightgray;
+            padding: 6px;
+            font-weight: bold;
+        }
+
+        thead > tr > th{
+            position: sticky;
+            top: -1px;
+            background-color: rgb(98, 98, 98);
+            
+        }
+
+        tbody > tr:nth-child(even){
+            background-color: lightgray;
         }
         
         td, th{
@@ -22,8 +41,9 @@
         }
 
         thead, tfoot{
-            background-color: gray;
+            background-color: rgb(98, 98, 98);
             color: white;
+            border: 1px solid black;
         }
 
         .num{
@@ -35,9 +55,10 @@
 <body>
     <h1>Teste com Tabelas</h1>
     <table>
+        <caption>População Brasileira</caption>
         <thead>
             <th scope="col">Unidade federativa</th>
-            <th scope="col" style="width: 100px;">população</th>
+            <th scope="col" style="width: 125px;">população</th>
         </thead>
         <tbody>
             <tr>
